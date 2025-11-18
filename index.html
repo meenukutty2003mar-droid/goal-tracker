@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goal Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGO PAGE (PAGE 1) -->
+  <section id="logoPage" class="page active">
+      <h1 class="logoTitle">GOAL TRACKER</h1>
+      <button class="enterBtn" id="enterBtn">ENTER</button>
+  </section>
+
+  <!-- TODO PAGE (PAGE 2) -->
+  <section id="todoPage" class="page">
+      <div class="app">
+          <h2>Your To-Do List</h2>
+
+          <div class="inputArea">
+              <input type="text" id="taskInput" placeholder="Type your task...">
+              <button id="addBtn">ADD</button>
+          </div>
+
+          <ul id="taskList"></ul>
+
+          <div id="happyMsg" class="happyMsg">😊 Great! Task completed!</div>
+      </div>
+  </section>
+
+<script src="script.js"></script>
+</body>
+</html>
